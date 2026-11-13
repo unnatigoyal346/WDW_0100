@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 14: Nested and Responsive Tables</title>
+</head>
+<body>
+  <h1>Student Results</h1>
+
+  <h2>Nested Table</h2>
+  <table border="1">
+    <caption>Student marks by subject</caption>
+    <thead>
+      <tr>
+        <th scope="col">Student</th>
+        <th scope="col">Class</th>
+        <th scope="col">Subject marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Maya</th>
+        <td>10A</td>
+        <td>
+          <table border="1">
+            <caption>Maya's marks</caption>
+            <tbody>
+              <tr>
+                <th scope="row">HTML</th>
+                <td>88</td>
+              </tr>
+              <tr>
+                <th scope="row">Math</th>
+                <td>91</td>
+              </tr>
+              <tr>
+                <th scope="row">Science</th>
+                <td>85</td>
+              </tr>
+              <tr>
+                <th scope="row">English</th>
+                <td>90</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</body>
+</html> 
+
