@@ -15,13 +15,13 @@
          <p>
             <label for="Name">Full Name:</label>
             <input type="text" id="Name" name="fullname"
-            placeholder="Full name" 
+            placeholder="Full name" required>
         </p>
 
         <p>
             <label for="Email">Email:</label>
             <input type="email" id="Email" name="email"
-            placeholder="you@college.edu" 
+            placeholder="you@college.edu" required>
         </p>
 
         <p>
@@ -29,21 +29,22 @@
             <input type="tel" id="Mobile" name="mobile"
             placeholder="10-digit mobile"
             pattern="[0-9]{10}"
-            
+             title="Enter exactly 10 digits"
+
         </p>
 
         <p>
             <label for="Password">Password:</label>
             <input type="password" id="Password" name="password"
             placeholder="Min 6 characters"
-            
+            minlength="6" required>
         </p>
 
         <p>
             <label for="Age">Age:</label>
             <input type="number" id="Age" name="age"
             placeholder="Age"
-            
+            min="17" max="30" required>
         </p>
 
         <button type="submit">Register</button>
